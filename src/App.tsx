@@ -1,21 +1,42 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
-import Archive from './pages/Archive';
+
+const Archive = lazy(() => import('./pages/Archive'));
 
 function App() {
   return (
-    <Router>
-      {/* Changed bg-slate-900 to bg-black */}
-      <div className="bg-black leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/archive" element={<Archive />} />
-        </Routes>
-      </div>
-      <Analytics />
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <ErrorBoundary>
+          <div className="bg-black leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route
+                path="/archive"
+                element={
+                  <Suspense
+                    fallback={
+                      <div className="flex min-h-screen items-center justify-center bg-black">
+                        <div className="h-8 w-8 animate-spin rounded-full border-2 border-teal-300 border-t-transparent" />
+                      </div>
+                    }
+                  >
+                    <Archive />
+                  </Suspense>
+                }
+              />
+            </Routes>
+          </div>
+          <Analytics />
+          <SpeedInsights />
+        </ErrorBoundary>
+      </Router>
+    </HelmetProvider>
   );
 }
 

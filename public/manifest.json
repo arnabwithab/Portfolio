@@ -1,0 +1,16 @@
+{
+  "name": "Arnab Mandal - Portfolio",
+  "short_name": "AM Portfolio",
+  "description": "AI Engineer specializing in GenAI applications and systems-level engineering",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "/logo/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

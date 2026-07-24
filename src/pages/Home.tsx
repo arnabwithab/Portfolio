@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import LeftPanel from '../components/LeftPanel';
 import RightPanel from '../components/RightPanel';
 
@@ -29,30 +30,57 @@ const Home: React.FC = () => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('mousemove', handleMouseMove, { passive: true });
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
-  return (
-    <div className="relative">
-      <div
-        className="pointer-events-none fixed inset-0 z-30 transition duration-300"
-        style={{
-          background: `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`
-        }}
-      ></div>
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Arnab Mandal',
+    jobTitle: 'Enterprise AI Specialist',
+    url: 'https://www.arnabmandal.dev',
+    sameAs: [
+      'https://github.com/Eros483',
+      'https://www.linkedin.com/in/arnabmandal2912',
+      'https://www.instagram.com/arnabwithab/',
+    ],
+  };
 
-      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
-        <div className="lg:flex lg:justify-between lg:gap-4">
-          <LeftPanel activeSection={activeSection} />
-          <RightPanel />
+  return (
+    <>
+      <Helmet>
+        <title>Arnab Mandal &mdash; AI Engineer &amp; GenAI Specialist</title>
+        <meta name="description" content="Arnab Mandal is an AI Engineer specializing in GenAI applications and systems-level engineering. Building logic-powered products that work." />
+        <link rel="canonical" href="https://www.arnabmandal.dev" />
+        <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
+      </Helmet>
+
+      <div className="relative">
+        <div
+          className="pointer-events-none fixed inset-0 z-30 transition duration-300"
+          aria-hidden="true"
+          style={{
+            background: `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+          }}
+        />
+
+        <div
+          id="main-content"
+          className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
+          role="main"
+        >
+          <div className="lg:flex lg:justify-between lg:gap-4">
+            <LeftPanel activeSection={activeSection} />
+            <RightPanel />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
