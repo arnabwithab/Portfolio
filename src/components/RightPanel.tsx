@@ -24,13 +24,10 @@ const RightPanel: React.FC = () => {
           <p>
             Back in 2023, I stumbled into the world of AI and machine learning through a simple college project. Fast-forward to today, and I've had the privilege of building intelligent systems for{' '}
             <span className="text-slate-200 font-medium">defense organizations</span>,{' '}
-            <span className="text-slate-200 font-medium">AI startups</span>, and various research initiatives.
+            <span className="text-slate-200 font-medium">AI startups</span>, and specialize in AI for Enterprise Systems.
           </p>
           <p>
-            My main focus these days is building robust GenAI applications that solve real problems without requiring extensive user training. I'm particularly interested in the intersection of{' '}
-            <span className="text-slate-200 font-medium">retrieval-augmented generation</span>,{' '}
-            <span className="text-slate-200 font-medium">transformer architecture</span>, and{' '}
-            <span className="text-slate-200 font-medium">and optimizing models at the kernel level</span>.
+            My main focus these days is building solutions for real problems, implementing monitoring and tracing for well, everything, working more with CUDA and Golang. Particularly, my focus is on better agents, and the next big architecture, that will replace the Transformer.
           </p>
           <p>
             When I'm not coding, you'll find me at the gym, debating politics and international relations, reading about global power dynamics, or exploring new medium articles on tech and philosophy. I also enjoy playing basketball and discovering new music.
