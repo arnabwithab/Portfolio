@@ -14,10 +14,10 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ activeSection }) => {
           Arnab Mandal
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          AI Engineer
+          Enterprise AI Specialist
         </h2>
         <p className="mt-4 max-w-xs leading-normal text-slate-400">
-          I ship logic-powered products that don't need onboarding. My focus is on building functional GenAI applications, but I specialize in the systems-level engineering required to make them viable.
+          I like finetuning stuff
         </p>
 
         <Navigation activeSection={activeSection} />
