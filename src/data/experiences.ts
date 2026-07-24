@@ -2,6 +2,22 @@ import { WorkExperience } from '../types';
 
 export const experiences: WorkExperience[] = [
   {
+    id: "4",
+    position: "Intern, Enterprise AI Platform",
+    company: "Fidelity International",
+    location: "Gurgaon",
+    startDate: "2026-06",
+    endDate: "Present",
+    description: "Cut PII redaction latency by 92% via AWQ-quantized fine-tuning of Gemma 4 on SageMaker, reaching 96% F1. Shipped a document-sensitivity guardrail for the internal AI gateway, monitoring 15k+ uploads/month via ELK.",
+    achievements: [
+      "Cut PII redaction latency by 92% via AWQ-quantized fine-tuning of Gemma 4 on SageMaker, reaching 96% F1",
+      "Shipped a document-sensitivity guardrail for the internal AI gateway, monitoring 15k+ uploads/month via ELK",
+      "Cut manual audit effort by 40% and redaction costs by 85%"
+    ],
+    technologies: [],
+    type: "internship"
+  },
+  {
     id: "3",
     position: "AI Engineer Intern",
     company: "DeepLure AI Research",
@@ -14,7 +30,7 @@ export const experiences: WorkExperience[] = [
       "Implemented modular architecture supporting multiple LLM backends",
       "Optimized GPU acceleration for improved inference performance"
     ],
-    technologies: ["Python", "PyTorch", "TensorRT", "Docker", "Triton"],
+    technologies: [],
     type: "internship"
   },
   {
@@ -30,7 +46,7 @@ export const experiences: WorkExperience[] = [
       "Implemented modular architecture supporting multiple LLM backends",
       "Optimized GPU acceleration for improved inference performance"
     ],
-    technologies: ["Python", "FastAPI", "Streamlit", "llama-cpp-python", "FAISS", "PyTorch", "MongoDB"],
+    technologies: [],
     type: "internship"
   },
   {
@@ -46,7 +62,7 @@ export const experiences: WorkExperience[] = [
       "Created report generation chatbot using LangChain and LangGraph",
       "Implemented database querying in natural language for operational reports"
     ],
-    technologies: ["Python", "Ultralytics", "LangChain", "SQLAlchemy", "Ollama", "Selenium"],
+    technologies: [],
     type: "internship"
   },
 ];

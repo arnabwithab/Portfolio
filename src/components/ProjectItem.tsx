@@ -49,17 +49,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
 
         <p className="mt-2 text-sm leading-normal text-slate-400">{project.description}</p>
 
-        {project.technologies && project.technologies.length > 0 && (
-          <ul className="mt-2 flex flex-wrap gap-2">
-            {project.technologies.slice(0, 6).map((tech, index) => (
-              <li key={index}>
-                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                  {tech}
-                </div>
-              </li>
-            ))}
-          </ul>
-        )}
+
       </div>
     </div>
   );

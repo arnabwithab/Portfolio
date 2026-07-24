@@ -53,16 +53,13 @@ const Archive: React.FC = () => {
                 <tr>
                   <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Year</th>
                   <th className="py-4 pr-8 text-sm font-semibold text-slate-200">Project</th>
-                  <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">
-                    Built with
-                  </th>
                   <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 sm:table-cell">
                     Link
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {sortedProjects.map((project, index) => {
+                {sortedProjects.map((project) => {
                   const year = new Date(project.date).getFullYear();
                   const projectUrl = project.liveUrl || project.githubUrl;
 
@@ -99,18 +96,6 @@ const Archive: React.FC = () => {
                         <div className="mt-2 text-sm leading-normal text-slate-400">
                           {project.description}
                         </div>
-                      </td>
-
-                      <td className="hidden py-4 pr-4 align-top lg:table-cell">
-                        <ul className="flex -translate-y-1.5 flex-wrap">
-                          {project.technologies.slice(0, 5).map((tech, techIndex) => (
-                            <li key={techIndex} className="my-1 mr-1.5">
-                              <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
-                                {tech}
-                              </div>
-                            </li>
-                          ))}
-                        </ul>
                       </td>
 
                       <td className="hidden py-4 align-top sm:table-cell">
