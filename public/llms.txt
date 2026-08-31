@@ -1,0 +1,47 @@
+# Arnab Mandal
+
+> AI Engineer & GenAI Specialist (Enterprise AI Platform Intern at Fidelity International, Gurgaon). Specializes in GenAI applications, systems-level engineering, LLM inference optimization, and RAG architectures. Portfolio at https://www.arnabmandal.dev.
+
+Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL agents and speculative decoding for vLLM to PII redaction and document guardrails at scale. Tagline: "I like finetuning stuff."
+
+## Pages
+
+- [Home](https://www.arnabmandal.dev/): About, Experience, and featured Projects sections
+- [Project Archive](https://www.arnabmandal.dev/archive): Complete archive of 28 projects sorted newest first
+- [Resume PDF](https://www.arnabmandal.dev/resume.pdf): CV / resume
+- [Sitemap](https://www.arnabmandal.dev/sitemap.xml): Machine-readable list of pages
+
+## Featured Projects
+
+- [Domino Speculative Decoding for vLLM](https://github.com/Eros483/speculators): Inference + distributed training support for Domino in vLLM; 18% throughput gain on Qwen3, 27% acceptance length over DFlash across 7 benchmarks (GSM8K, HumanEval, etc.)
+- [AutoLinks: Distributed Semantic Internal Linking Engine](https://github.com/Eros483/AutoLinks): Async Go workers with Redis queue + DLQ, Qdrant vector search, GLiNER entity extraction; 85%+ LLM-as-a-judge acceptance, p95 600ms — live at https://autolinks.vercel.app
+- [AuthChain](https://github.com/Eros483/AuthChain): Cryptographic governance & consensus for autonomous agents; interruption-driven control with blockchain-audited execution — live at https://auth-chain-five.vercel.app
+- [Graph-RAG Text-to-SQL Agent](https://github.com/Eros483/SQL-generation-engine): Natural language to SQL for healthcare warehouse (43 tables, 62 relationships, 1GB); AWS Bedrock + LangGraph; +33% multi-join accuracy, validated for production
+- [Llava Inference via TensorRT and Triton](https://github.com/Eros483/Llava_Inference_TensorRT_Triton): Custom docs and forked Triton/TensorRT for efficient multimodal VLM inference
+- [Krishi AI Sahayak](https://github.com/Eros483/SIH25-Farmers): Unified API + Android app for farmers — live at https://sih25-farmers.onrender.com/docs
+- [RAG-Toolkit](https://github.com/Eros483/RagToolkitServer): Modular GPU-accelerated RAG system with FastAPI + Streamlit, llama-cpp-python
+- [GPT-2 Style LLM from Scratch](https://github.com/Eros483/GPT-2_LLM_Architecture): Tokenization, multi-head attention, positional encodings in PyTorch/NumPy — and 20 more in the archive
+
+## Experience
+
+- [Fidelity International — Intern, Enterprise AI Platform (2026-06 to Present, Gurgaon)](https://www.arnabmandal.dev/#experience): Cut PII redaction latency 92% via AWQ-quantized Gemma 4 on SageMaker (96% F1); shipped document-sensitivity guardrail for internal AI gateway (15k+ uploads/month via ELK)
+- [DeepLure AI Research — AI Engineer Intern (2025-12 to 2026-01, Remote)](https://www.arnabmandal.dev/#experience): vRAM optimization, PyTorch to TensorRT/Triton migration for inference pipelines
+- [Critical AI Pvt Ltd — AI Intern (2025-06 to 2025-07, Remote)](https://www.arnabmandal.dev/#experience): Built GPU-accelerated RAG system with FastAPI and Streamlit
+- [WESEE, Ministry of Defence — AI Intern (2025-06 to 2025-07, India)](https://www.arnabmandal.dev/#experience): Drone identification/tracking (YOLOv8) and LangChain/LangGraph report generation chatbot
+
+## Skills
+
+- [Skills Overview](https://www.arnabmandal.dev/#skills): Python, C++, SQL, PyTorch, TensorFlow, NumPy, Pandas, Scikit-learn, Hugging Face Transformers, FastAPI, Redis, Docker, Streamlit, OpenCV, Git
+
+## Contact and Profiles
+
+- [GitHub](https://github.com/Eros483): Primary code portfolio
+- [LinkedIn](https://www.linkedin.com/in/arnabmandal2912): Professional profile
+- [Email](mailto:arnabmandal2912@gmail.com): arnabmandal2912@gmail.com
+- [Instagram](https://www.instagram.com/arnabwithab/): @arnabwithab
+
+## Optional
+
+- [Clinic Appointment Booking Engine](https://github.com/Eros483/clinic-appointment-booking-engine): Multilingual voice agent for clinic phone lines — auto-schedules via Google Calendar/Postgres
+- [Traffic Violation Detection Service](https://github.com/Eros483/traffic-violation-detection-image-processing): Detects 7 violations from live feeds for Flipkart Grid 2.0, generates e-challans with tamper-proof evidence
+- [InvoicePipe](https://github.com/Eros483/invoicePipe): Groq Vision (LLaMA-4 Scout) invoice extraction pipeline with arithmetic validation
