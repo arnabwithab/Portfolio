@@ -43,7 +43,7 @@ const Home: React.FC = () => {
     '@type': 'Person',
     name: 'Arnab Mandal',
     jobTitle: 'Enterprise AI Specialist',
-    url: 'https://www.arnabmandal.dev',
+    url: 'https://arnab-mandal-portfolio.vercel.app',
     sameAs: [
       'https://github.com/Eros483',
       'https://www.linkedin.com/in/arnabmandal2912',
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
       <Helmet>
         <title>Arnab Mandal &mdash; AI Engineer &amp; GenAI Specialist</title>
         <meta name="description" content="Arnab Mandal is an AI Engineer specializing in GenAI applications and systems-level engineering. Building logic-powered products that work." />
-        <link rel="canonical" href="https://www.arnabmandal.dev" />
+        <link rel="canonical" href="https://arnab-mandal-portfolio.vercel.app" />
         <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
       </Helmet>
 

@@ -27,7 +27,7 @@ const Archive: React.FC = () => {
       <Helmet>
         <title>Project Archive &mdash; Arnab Mandal</title>
         <meta name="description" content="Full archive of projects by Arnab Mandal, spanning AI engineering, machine learning, NLP, and systems-level work." />
-        <link rel="canonical" href="https://www.arnabmandal.dev/archive" />
+        <link rel="canonical" href="https://arnab-mandal-portfolio.vercel.app/archive" />
       </Helmet>
 
       <div className="min-h-screen bg-black relative">

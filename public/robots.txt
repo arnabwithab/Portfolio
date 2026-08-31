@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.arnabmandal.dev/sitemap.xml
+Sitemap: https://arnab-mandal-portfolio.vercel.app/sitemap.xml
