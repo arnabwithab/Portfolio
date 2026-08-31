@@ -1,15 +1,15 @@
 # Arnab Mandal
 
-> AI Engineer & GenAI Specialist (Enterprise AI Platform Intern at Fidelity International, Gurgaon). Specializes in GenAI applications, systems-level engineering, LLM inference optimization, and RAG architectures. Portfolio at https://www.arnabmandal.dev.
+> AI Engineer & GenAI Specialist (Enterprise AI Platform Intern at Fidelity International, Gurgaon). Specializes in GenAI applications, systems-level engineering, LLM inference optimization, and RAG architectures. Portfolio at https://arnab-mandal-portfolio.vercel.app.
 
 Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL agents and speculative decoding for vLLM to PII redaction and document guardrails at scale. Tagline: "I like finetuning stuff."
 
 ## Pages
 
-- [Home](https://www.arnabmandal.dev/): About, Experience, and featured Projects sections
-- [Project Archive](https://www.arnabmandal.dev/archive): Complete archive of 28 projects sorted newest first
-- [Resume PDF](https://www.arnabmandal.dev/resume.pdf): CV / resume
-- [Sitemap](https://www.arnabmandal.dev/sitemap.xml): Machine-readable list of pages
+- [Home](https://arnab-mandal-portfolio.vercel.app/): About, Experience, and featured Projects sections
+- [Project Archive](https://arnab-mandal-portfolio.vercel.app/archive): Complete archive of 28 projects sorted newest first
+- [Resume PDF](https://arnab-mandal-portfolio.vercel.app/resume.pdf): CV / resume
+- [Sitemap](https://arnab-mandal-portfolio.vercel.app/sitemap.xml): Machine-readable list of pages
 
 ## Featured Projects
 
@@ -24,14 +24,14 @@ Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL age
 
 ## Experience
 
-- [Fidelity International — Intern, Enterprise AI Platform (2026-06 to Present, Gurgaon)](https://www.arnabmandal.dev/#experience): Cut PII redaction latency 92% via AWQ-quantized Gemma 4 on SageMaker (96% F1); shipped document-sensitivity guardrail for internal AI gateway (15k+ uploads/month via ELK)
-- [DeepLure AI Research — AI Engineer Intern (2025-12 to 2026-01, Remote)](https://www.arnabmandal.dev/#experience): vRAM optimization, PyTorch to TensorRT/Triton migration for inference pipelines
-- [Critical AI Pvt Ltd — AI Intern (2025-06 to 2025-07, Remote)](https://www.arnabmandal.dev/#experience): Built GPU-accelerated RAG system with FastAPI and Streamlit
-- [WESEE, Ministry of Defence — AI Intern (2025-06 to 2025-07, India)](https://www.arnabmandal.dev/#experience): Drone identification/tracking (YOLOv8) and LangChain/LangGraph report generation chatbot
+- [Fidelity International — Intern, Enterprise AI Platform (2026-06 to Present, Gurgaon)](https://arnab-mandal-portfolio.vercel.app/#experience): Cut PII redaction latency 92% via AWQ-quantized Gemma 4 on SageMaker (96% F1); shipped document-sensitivity guardrail for internal AI gateway (15k+ uploads/month via ELK)
+- [DeepLure AI Research — AI Engineer Intern (2025-12 to 2026-01, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): vRAM optimization, PyTorch to TensorRT/Triton migration for inference pipelines
+- [Critical AI Pvt Ltd — AI Intern (2025-06 to 2025-07, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): Built GPU-accelerated RAG system with FastAPI and Streamlit
+- [WESEE, Ministry of Defence — AI Intern (2025-06 to 2025-07, India)](https://arnab-mandal-portfolio.vercel.app/#experience): Drone identification/tracking (YOLOv8) and LangChain/LangGraph report generation chatbot
 
 ## Skills
 
-- [Skills Overview](https://www.arnabmandal.dev/#skills): Python, C++, SQL, PyTorch, TensorFlow, NumPy, Pandas, Scikit-learn, Hugging Face Transformers, FastAPI, Redis, Docker, Streamlit, OpenCV, Git
+- [Skills Overview](https://arnab-mandal-portfolio.vercel.app/#skills): Python, C++, SQL, PyTorch, TensorFlow, NumPy, Pandas, Scikit-learn, Hugging Face Transformers, FastAPI, Redis, Docker, Streamlit, OpenCV, Git
 
 ## Contact and Profiles
 
