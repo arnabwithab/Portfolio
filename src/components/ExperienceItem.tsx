@@ -35,8 +35,11 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
           </div>
         </h3>
 
-        <p className="mt-2 text-sm leading-normal text-slate-400">{experience.description}</p>
-
+        <ul className="mt-2 list-disc space-y-1 pl-4 text-sm leading-normal text-slate-400 marker:text-slate-500">
+          {experience.achievements.map((item, idx) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
 
       </div>
     </div>

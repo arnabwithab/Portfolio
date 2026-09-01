@@ -50,7 +50,15 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
           )}
         </h3>
 
-        <p className="mt-2 text-sm leading-normal text-slate-400">{project.description}</p>
+        {project.achievements && project.achievements.length > 0 ? (
+          <ul className="mt-2 list-disc space-y-1 pl-4 text-sm leading-normal text-slate-400 marker:text-slate-500">
+            {project.achievements.map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-2 text-sm leading-normal text-slate-400">{project.description}</p>
+        )}
       </div>
     </div>
   );

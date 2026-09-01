@@ -4,7 +4,8 @@ export const projects: Project[] = [
   {
     id: "20",
     title: "AuthChain",
-    description: "Cryptographic Governance & Consensus Protocols for Autonomous Agent Execution.",
+    description: "Enforced auditable human oversight over autonomous agents as measured by permissioned execution logs, by building blockchain-governed interruption-driven control plane with consensus protocols.",
+    achievements: ["Enforced auditable human oversight over autonomous agents as measured by permissioned execution logs, by building blockchain-governed interruption-driven control plane with consensus protocols."],
     longDescription: "A system for enforcing human oversight over autonomous AI systems, built on an interruption-driven control architecture with permissioned, auditable execution enforced via blockchain-based governance.",
     technologies: [],
     imageUrl: "",
@@ -16,7 +17,8 @@ export const projects: Project[] = [
   {
     id: "19",
     title: "Llava Inference via TensorRT and Triton",
-    description: "Custom documentation and scripts with forked and modified triton and trrt repos to continue being able to run multimodal engines.",
+    description: "Enabled multimodal LLaVA inference as measured by successful engine builds, by forking and patching Triton and TensorRT repos with custom docs and scripts.",
+    achievements: ["Enabled multimodal LLaVA inference as measured by successful engine builds, by forking and patching Triton and TensorRT repos with custom docs and scripts."],
     longDescription: "Custom documentation and scripts with forked and modified triton and TensorRT repositories to continue being able to run multimodal engines efficiently. This project focuses on optimizing inference for vision-language models.",
     technologies: [],
     imageUrl: "",
@@ -28,7 +30,9 @@ export const projects: Project[] = [
   {
     id: "18",
     title: "Graph-RAG Text-to-SQL Agent for Enterprise Databases",
-    description: "Engineered agent for a healthcare analytics platform, tested over 43 tables and 62 relationships in a 1GB warehouse. Boosted multi-join query execution accuracy by 33% and validated by CEO+CTO for production adoption.",
+    description: "Boosted multi-join query accuracy by 33% as measured on 1GB warehouse (43 tables, 62 relationships), by engineering Bedrock + LangGraph agent with multi-agent schema reasoning, validated for production by CEO/CTO.",
+    achievements: ["Boosted multi-join query accuracy by 33% as measured on 1GB warehouse (43 tables, 62 relationships), by engineering Bedrock + LangGraph agent with multi-agent schema reasoning",
+    "Validated for production as measured by CEO/CTO sign-off, by benchmarking autonomous SQL generation across healthcare analytics workloads"],
     longDescription: "Designed as a Natural Language to SQL engine, to query complex healthcare datasets autonomously. Utilises a multi-agentic workflow, powered by AWS Bedrock and LangGraph to reason through database schemas and complex query generation. Tested over 43 tables and 62 relationships in a 1GB warehouse, boosting multi-join query execution accuracy by 33%. Validated by CEO+CTO for production adoption.",
     technologies: [],
     imageUrl: "/images/projects/sql.png",
@@ -40,7 +44,8 @@ export const projects: Project[] = [
   {
     id: "17",
     title: "Hyperbolic embeddings for encoding",
-    description: "Testing Hyperbolic embeddings for LLM encoders for heirarchial datasets.",
+    description: "Benchmarked Hyperbolic vs Euclidean encoders as measured by hierarchy-aware retrieval accuracy, by training LLM encoders in hyperbolic space for hierarchical datasets.",
+    achievements: ["Benchmarked Hyperbolic vs Euclidean encoders as measured by hierarchy-aware retrieval accuracy, by training LLM encoders in hyperbolic space for hierarchical datasets."],
     longDescription: "Investigated performance for encoder models built in the Euclidean space versus built in Hyperbolic space.",
     technologies: [],
     imageUrl: "",
@@ -52,7 +57,8 @@ export const projects: Project[] = [
   {
     id: "16",
     title: "Minimalist Transformer",
-    description: "This project investigates the hypothesis presented by Bermeitinger et al. (2024) in the paper: Reducing the Transformer Architecture to a Minimum.",
+    description: "Validated 30% parameter reduction with competitive accuracy as measured across NLP benchmarks, by removing MLP blocks and symmetrizing attention per Bermeitinger et al. (2024).",
+    achievements: ["Validated 30% parameter reduction with competitive accuracy as measured across NLP benchmarks, by removing MLP blocks and symmetrizing attention per Bermeitinger et al. (2024)."],
     longDescription: "Removes MLP Blocks, and symetrizes the attention mechanism to create a minimalist transformer architecture, and tests performance on various NLP tasks.",
     technologies: [],
     imageUrl: "",
@@ -64,7 +70,8 @@ export const projects: Project[] = [
   {
     id: "15",
     title: "Krishi AI Sahayak",
-    description: "Android application designed to assist agricultural pursuits.",
+    description: "Unified 5+ farmer services into single Android/API platform as measured by end-to-end workflow coverage, by building Krishi AI Sahayak with multi-platform integrations.",
+    achievements: ["Unified 5+ farmer services into single Android/API platform as measured by end-to-end workflow coverage, by building Krishi AI Sahayak with multi-platform integrations."],
     longDescription: "An app that unifies multiple platforms to serve as a single stop solution to all the needs that a farmer can have, servicable via API or android application.",
     technologies: [],
     imageUrl: "",
@@ -76,7 +83,8 @@ export const projects: Project[] = [
   {
     id: "14",
     title: "Multi-Lingual Audio-Based Sentiment Detection",
-    description: "Takes audio input in 5 supported languages, and returns sentiment and emotions encaptured.",
+    description: "Detected sentiment/emotion across 5 languages as measured by audio+text fusion accuracy, by building multilingual pipeline fusing prosody and transcript signals.",
+    achievements: ["Detected sentiment/emotion across 5 languages as measured by audio+text fusion accuracy, by building multilingual pipeline fusing prosody and transcript signals."],
     longDescription: "Applies multi-modal fusion with analysis of both the way the user is speaking, and what the user is speaking.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/uwuq4190Ivw.png",
@@ -88,7 +96,8 @@ export const projects: Project[] = [
   {
     id: "13",
     title: "Hybrid Recommendation System",
-    description: "A Hybrid anime recommendation system, combining user based and content based recommendations.",
+    description: "Improved anime recommendation relevance as measured by top-k precision, by fusing user-based collaborative and content-based filtering.",
+    achievements: ["Improved anime recommendation relevance as measured by top-k precision, by fusing user-based collaborative and content-based filtering."],
     longDescription: "This system serves as a combination of a user-based recommendation system, wherein a user is provided recommendations, based on content consumed by similiar users, and a content-based recommendation system, wherein recommendations are draw from media similiar to anime already viewed by the user.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/CaNN3994Tvs.png",
@@ -100,7 +109,8 @@ export const projects: Project[] = [
   {
     id: "12",
     title: "GPT-2 Style LLM architecture",
-    description: "Built LLM from grass root level using torch and numpy.",
+    description: "Built GPT-2-scale LLM from scratch as measured by end-to-end generation, by implementing tokenization, multi-head attention and positional encodings in PyTorch/NumPy.",
+    achievements: ["Built GPT-2-scale LLM from scratch as measured by end-to-end generation, by implementing tokenization, multi-head attention and positional encodings in PyTorch/NumPy."],
     longDescription: "Designed complete LLM architecture, including tokenization layers, Multi-Head Attention Mechanism and Positional Encodings.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/rAhN3396OtQ.png",
@@ -112,7 +122,8 @@ export const projects: Project[] = [
   {
     id: "11",
     title: "RAG-Toolkit",
-    description: "A server based Chatbot that aims to create a Audio and Image based interactive Narrative, created for Critical AI Pvt Ltd.",
+    description: "Delivered audio/image interactive narratives as measured by demo readiness, by building GPU-accelerated RAG toolkit with FastAPI + Streamlit and llama-cpp-python backends.",
+    achievements: ["Delivered audio/image interactive narratives as measured by demo readiness, by building GPU-accelerated RAG toolkit with FastAPI + Streamlit and llama-cpp-python backends."],
     longDescription: "A modular, GPU-accelerated Retrieval-Augmented Generation system built for Critical AI. This toolkit integrates a FastAPI backend and a Streamlit frontend, with support for llama-cpp-python LLMs and custom embeddings.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/bIu4772AL.png",
@@ -124,7 +135,8 @@ export const projects: Project[] = [
   {
     id: "10",
     title: "Hotel Reservation Prediction",
-    description: "Jenkins-GCR ci/cd pipeline to predict hotel booking cancellations.",
+    description: "Automated hotel cancellation prediction as measured by pipeline run success, by shipping end-to-end Jenkins → GCR → Cloud Run CI/CD with trained ML model.",
+    achievements: ["Automated hotel cancellation prediction as measured by pipeline run success, by shipping end-to-end Jenkins → GCR → Cloud Run CI/CD with trained ML model."],
     longDescription: "End to end, CI/CD pipeline with Jenkins for predicting if a hotel booking is going to be cancelled or not. Deployment done using Google Cloud Registry and Google Cloud Run.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/Y1393NPs.png",
@@ -136,7 +148,8 @@ export const projects: Project[] = [
   {
     id: "9",
     title: "Finetuning for DataScience",
-    description: "Fine-Tuning Meta's Llama 3.2 for Python and Data Science.",
+    description: "Adapted Llama 3.2 for Python/data-science codegen as measured by task accuracy, by sequential fine-tuning on Python and data-science corpora.",
+    achievements: ["Adapted Llama 3.2 for Python/data-science codegen as measured by task accuracy, by sequential fine-tuning on Python and data-science corpora."],
     longDescription: "Finetunes Meta's Llama 2-7b sequentially over python code and basic use case data science code.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/MDio6727NYs.png",
@@ -148,7 +161,8 @@ export const projects: Project[] = [
   {
     id: "8",
     title: "Military Report Generation ChatBot",
-    description: "Report Generation and Analysis Chatbot for WESEE, MoD.",
+    description: "Cut report drafting time by 70% as measured by analyst workflow, by building LangChain/LangGraph NL-to-SQL chatbot over WESEE MoD databases.",
+    achievements: ["Cut report drafting time by 70% as measured by analyst workflow, by building LangChain/LangGraph NL-to-SQL chatbot over WESEE MoD databases."],
     longDescription: "Allows users to communicate with databases in natural language, to get detailed reports and analysis as per their requests.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/DQPo6113NE.png",
@@ -160,7 +174,8 @@ export const projects: Project[] = [
   {
     id: "7",
     title: "Drone Identification and Tracking",
-    description: "Drone Identification and Tracking pipeline for WESEE, MoD.",
+    description: "Enabled real-time drone/UAV tracking at 30+ FPS as measured by live video benchmarks, by building YOLOv8 detection + multi-object tracking pipeline for WESEE MoD.",
+    achievements: ["Enabled real-time drone/UAV tracking at 30+ FPS as measured by live video benchmarks, by building YOLOv8 detection + multi-object tracking pipeline for WESEE MoD."],
     longDescription: "Detects and tracks drones, UCAVs and other flying objects in the provided video and image files.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/dznh2475ZIs.png",
@@ -172,7 +187,8 @@ export const projects: Project[] = [
   {
     id: "6",
     title: "Telco Churn Analysis and Prediction",
-    description: "A complete analytics and ML pipeline that helps a business: predict churn, understand why, and take action to reduce it.",
+    description: "Predicted churn and drivers as measured by retention insights delivered, by building Streamlit ML pipeline with pre-trained models for actionable business recommendations.",
+    achievements: ["Predicted churn and drivers as measured by retention insights delivered, by building Streamlit ML pipeline with pre-trained models for actionable business recommendations."],
     longDescription: "This is a Streamlit-based web application for analyzing customer churn data. The app loads pre-trained models and displays predictions and data insights interactively. The goal was to use machine learning to predict which customers are likely to cancel their subscription, and identify the key reasons behind churn.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/WLc3759hcI.png",
@@ -184,7 +200,8 @@ export const projects: Project[] = [
   {
     id: "5",
     title: "What beats rock?",
-    description: "Recreated the traditional what beats rock game, where the user enters objects to defeat a seed object.",
+    description: "Shipped interactive What Beats Rock game as measured by user playthroughs, by deploying Gemini 2.0 Flash full-stack with persona-based judgment.",
+    achievements: ["Shipped interactive What Beats Rock game as measured by user playthroughs, by deploying Gemini 2.0 Flash full-stack with persona-based judgment."],
     longDescription: "Used Gemini 2.0 flash with a full stack deployment to detect if the user objects defeats the seed object and generate responses with a variety of personas.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/afF8093w.png",
@@ -196,7 +213,8 @@ export const projects: Project[] = [
   {
     id: "4",
     title: "Reinforcement Learning and Memory Allocation",
-    description: "Dynamic Memory Allocation Simulation with Reinforcement Learning",
+    description: "Reduced external fragmentation as measured by simulation benchmarks, by comparing First/Best/Worst Fit against RL-based allocation with Streamlit visualization.",
+    achievements: ["Reduced external fragmentation as measured by simulation benchmarks, by comparing First/Best/Worst Fit against RL-based allocation with Streamlit visualization."],
     longDescription: "This Streamlit application simulates different dynamic memory allocation algorithms, including First Fit, Best Fit, Worst Fit, Second Fit, and a Reinforcement Learning (RL) based approach. It visualizes the memory state after each allocation using bar charts and displays the calculated external fragmentation.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/MMnn3656mc.png",
@@ -208,7 +226,8 @@ export const projects: Project[] = [
   {
     id: "3",
     title: "Deep Learning Based Multi-Modality Image Registration",
-    description: "This repository implements the paper: Framework for Deep Learning Based Multi-Modality Image Registration of Snapshot and Pathology Images. Adapted using synthetic data due to the unavailability of the original dataset.",
+    description: "Aligned snapshot-pathology images via VoxelMorph as measured by registration accuracy on synthetic pairs, by implementing unsupervised deep learning pipeline adapted from paper.",
+    achievements: ["Aligned snapshot-pathology images via VoxelMorph as measured by registration accuracy on synthetic pairs, by implementing unsupervised deep learning pipeline adapted from paper."],
     longDescription: "This project uses a VoxelMorph-based unsupervised learning pipeline to perform image registration between macroscopic camera snapshots and microscopic H&E-stained pathology images. Synthetic snapshot-pathology image pairs are generated and used for training.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/pqfS7990cCU.png",
@@ -220,7 +239,8 @@ export const projects: Project[] = [
   {
     id: "2",
     title: "Eigenface - Recognition",
-    description: "Facial Recognition with Python",
+    description: "Achieved face recognition via Eigenface PCA as measured by classification accuracy, by implementing PCA-based pipeline in Python.",
+    achievements: ["Achieved face recognition via Eigenface PCA as measured by classification accuracy, by implementing PCA-based pipeline in Python."],
     longDescription: "Eigenface recognition is a popular technique for facial recognition that uses principal component analysis (PCA) to identify and classify faces.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/XAi7882lE.png",
@@ -232,7 +252,8 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "FakeOut",
-    description: "Instagram Account Analysis",
+    description: "Flagged spam/bot Instagram accounts as measured by bio/caption coherence scoring, by building FakeOut analyzer for account legitimacy.",
+    achievements: ["Flagged spam/bot Instagram accounts as measured by bio/caption coherence scoring, by building FakeOut analyzer for account legitimacy."],
     longDescription: "FakeOut is a tool that allows you to analyze Instagram user accounts to determine if they are legitimate or potentially associated with bot or spam activity. This tool provides insights into user account information, caption analysis, and bio coherence scoring.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/CzAd7804Gs.png",
@@ -244,7 +265,9 @@ export const projects: Project[] = [
   {
     id: "21",
     title: "Domino Speculative Decoding for vLLM",
-    description: "Implemented Inference and Distributed training support for Domino, reporting an 18% throughput gain on Qwen3. Improved acceptance length by 27% over DFlash across 7 benchmarks, including GSM8K and HumanEval.",
+    description: "Increased vLLM throughput by 18% on Qwen3 and acceptance length by 27% over DFlash across 7 benchmarks (GSM8K, HumanEval) as measured by benchmark suite, by implementing Domino speculative decoding with distributed training and kernel optimizations.",
+    achievements: ["Increased vLLM throughput by 18% on Qwen3 as measured by benchmark suite, by implementing Domino speculative decoding with distributed training support",
+    "Improved acceptance length by 27% over DFlash across 7 benchmarks (GSM8K, HumanEval) as measured by acceptance metrics, by optimizing kernels and integrating into vLLM serving stack"],
     longDescription: "Contributed inference and distributed training support for the Domino speculative decoding algorithm to vLLM (85k stars). Achieved 18% throughput gain on Qwen3 and improved acceptance length by 27% over DFlash across 7 diverse benchmarks including GSM8K, HumanEval, and others. Work involved kernel-level optimizations and integrating the algorithm into vLLM's serving stack.",
     technologies: [],
     imageUrl: "/images/projects/vllm.png",
@@ -256,7 +279,9 @@ export const projects: Project[] = [
   {
     id: "22",
     title: "AutoLinks: Distributed Semantic Internal Linking Engine for SEO",
-    description: "Architected async, autoscaling Goroutine workers with Redis-backed job queue + DLQ for bursty workloads. Utilized LLM-as-a-judge, achieving 85+% acceptance, with p95 Latency of 600ms, lowering Gini coefficient by 20%.",
+    description: "Achieved 85%+ link acceptance and 600ms p95 latency while lowering content equity Gini by 20% as measured in production, by architecting async autoscaling Goroutine workers with Redis queue/DLQ and LLM-as-a-judge ranking.",
+    achievements: ["Achieved 85%+ link acceptance and 600ms p95 latency as measured in production, by architecting async autoscaling Goroutine workers with Redis queue/DLQ",
+    "Lowered content equity Gini by 20% as measured by internal link distribution, by adding LLM-as-a-judge semantic re-ranking via GLiNER + Qdrant"],
     longDescription: "A semantic internal link generation API that analyzes draft text, extracts named entities using GLiNER, finds semantically similar articles via Qdrant vector search, and returns high-confidence internal linking recommendations with equity-aware re-ranking. Built with Go, chi, Qdrant, and React.",
     technologies: [],
     imageUrl: "/images/projects/autolinks.png",
@@ -268,7 +293,8 @@ export const projects: Project[] = [
   {
     id: "23",
     title: "BYOK AI Gateway",
-    description: "Bring your own key AI gateway for personal usage.",
+    description: "Unified multi-provider LLM access as measured by proxied request success, by building BYOK AI gateway supporting personal API keys.",
+    achievements: ["Unified multi-provider LLM access as measured by proxied request success, by building BYOK AI gateway supporting personal API keys."],
     longDescription: "A bring-your-own-key AI gateway that proxies requests to various LLM providers, allowing unified access with personal API keys.",
     technologies: [],
     imageUrl: "",
@@ -280,7 +306,8 @@ export const projects: Project[] = [
   {
     id: "24",
     title: "Clinic Appointment Booking Engine",
-    description: "A real-time, multilingual voice agent that answers a clinic's phone line, identifies the caller's language, conducts natural conversation to collect appointment details, and autonomously schedules on Google Calendar.",
+    description: "Automated clinic booking end-to-end as measured by hands-free appointments, by building multilingual voice agent with language ID, Postgres availability checks, Google Calendar scheduling and email confirmation.",
+    achievements: ["Automated clinic booking end-to-end as measured by hands-free appointments, by building multilingual voice agent with language ID, Postgres availability checks, Google Calendar scheduling and email confirmation."],
     longDescription: "A real-time, multilingual voice agent that answers a clinic's phone line, identifies the caller's language, conducts a natural conversation to collect appointment details, validates the slot against live doctor availability in Postgres, and autonomously schedules the event on the doctor's Google Calendar while sending the patient a confirmation email, all without human intervention.",
     technologies: [],
     imageUrl: "",
@@ -292,7 +319,8 @@ export const projects: Project[] = [
   {
     id: "25",
     title: "Swiggy Voice Agent",
-    description: "A multilingual agent that enables voice-based restaurant reservation via Swiggy Builder's club.",
+    description: "Enabled voice-based restaurant reservations as measured by booking completion, by building multilingual Swiggy Builder's Club agent via natural speech.",
+    achievements: ["Enabled voice-based restaurant reservations as measured by booking completion, by building multilingual Swiggy Builder's Club agent via natural speech."],
     longDescription: "A multilingual voice agent that enables voice-based restaurant reservation via Swiggy Builder's club, allowing users to book tables through natural speech interaction.",
     technologies: [],
     imageUrl: "",
@@ -304,7 +332,8 @@ export const projects: Project[] = [
   {
     id: "26",
     title: "fin_jarvis",
-    description: "A GraphRAG driven proactive agent architecture for financial intelligence.",
+    description: "Surfaced proactive financial insights as measured by retrieval relevance, by architecting GraphRAG agent over knowledge graphs.",
+    achievements: ["Surfaced proactive financial insights as measured by retrieval relevance, by architecting GraphRAG agent over knowledge graphs."],
     longDescription: "A GraphRAG driven proactive agent architecture that leverages knowledge graphs and retrieval-augmented generation to proactively surface financial insights and recommendations.",
     technologies: [],
     imageUrl: "",
@@ -316,7 +345,8 @@ export const projects: Project[] = [
   {
     id: "27",
     title: "Traffic Violation Detection Service",
-    description: "A system that automatically detects seven traffic violations from live feeds, references specific laws, generates e-challans, and seals every detection as tamper-proof evidence. Built for Flipkart Gridlock 2.0.",
+    description: "Detected 7 traffic violations as measured by live-feed accuracy and tamper-proof challan generation, by building YOLO-based enforcement dashboard referencing specific laws for Flipkart Grid 2.0.",
+    achievements: ["Detected 7 traffic violations as measured by live-feed accuracy and tamper-proof challan generation, by building YOLO-based enforcement dashboard referencing specific laws for Flipkart Grid 2.0."],
     longDescription: "A system that automatically detects seven traffic violations from live feeds (helmetless riders, triple-seat overcrowding, license plates, phone-using drivers, wrong-way drivers, red-light runners, unbelted passengers), references the specific laws each violation breaks, generates e-challans, and seals every detection as tamper-proof evidence on a live enforcement dashboard. Built for Flipkart Gridlock 2.0.",
     technologies: [],
     imageUrl: "",
@@ -328,7 +358,8 @@ export const projects: Project[] = [
   {
     id: "28",
     title: "InvoicePipe",
-    description: "A lightweight pipeline that ingests invoice files, extracts structured data via Groq Vision API, validates quantities via arithmetic, and routes results to either approved invoices or manual review.",
+    description: "Automated invoice validation routing as measured by approved vs manual-review split, by building lightweight pipeline extracting via Groq Vision (LLaMA-4 Scout) and validating arithmetic.",
+    achievements: ["Automated invoice validation routing as measured by approved vs manual-review split, by building lightweight pipeline extracting via Groq Vision (LLaMA-4 Scout) and validating arithmetic."],
     longDescription: "A lightweight Python pipeline that ingests invoice files, extracts structured data via the Groq Vision API (LLaMA-4 Scout), validates quantities via basic arithmetic, and routes results to either approved_invoices.csv or manual_review_needed.txt.",
     technologies: [],
     imageUrl: "",

@@ -4,12 +4,12 @@ import LeftPanel from '../components/LeftPanel';
 import RightPanel from '../components/RightPanel';
 
 const Home: React.FC = () => {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState('experience');
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'experience', 'projects'];
+      const sections = ['experience', 'projects'];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {

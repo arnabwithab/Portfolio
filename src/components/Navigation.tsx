@@ -6,7 +6,6 @@ interface NavigationProps {
 
 const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
   const sections = [
-    { id: 'about', label: 'ABOUT' },
     { id: 'experience', label: 'EXPERIENCE' },
     { id: 'projects', label: 'PROJECTS' },
   ];

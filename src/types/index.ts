@@ -9,6 +9,7 @@ export interface Project {
   liveUrl?: string;
   date: string; // Format: "YYYY-MM" or "YYYY-MM-DD"
   featured?: boolean;
+  achievements?: string[];
 }
 
 export interface Skill {
