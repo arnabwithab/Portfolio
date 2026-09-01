@@ -26,7 +26,7 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ activeSection }) => {
       <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
         <li className="text-xs shrink-0">
           <a
-            href="https://github.com/Eros483"
+            href="https://github.com/arnabwithab"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-slate-400 hover:text-slate-200 transition-colors duration-300"

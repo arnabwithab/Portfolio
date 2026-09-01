@@ -8,7 +8,7 @@ export const projects: Project[] = [
     longDescription: "A system for enforcing human oversight over autonomous AI systems, built on an interruption-driven control architecture with permissioned, auditable execution enforced via blockchain-based governance.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/AuthChain",
+    githubUrl: "https://github.com/arnabwithab/AuthChain",
     liveUrl: "https://auth-chain-five.vercel.app/",
     date: "2026-02",
     featured: true
@@ -20,7 +20,7 @@ export const projects: Project[] = [
     longDescription: "Custom documentation and scripts with forked and modified triton and TensorRT repositories to continue being able to run multimodal engines efficiently. This project focuses on optimizing inference for vision-language models.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/Llava_Inference_TensorRT_Triton",
+    githubUrl: "https://github.com/arnabwithab/Llava_Inference_TensorRT_Triton",
     liveUrl: "",
     date: "2026-01",
     featured: true
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     longDescription: "Designed as a Natural Language to SQL engine, to query complex healthcare datasets autonomously. Utilises a multi-agentic workflow, powered by AWS Bedrock and LangGraph to reason through database schemas and complex query generation. Tested over 43 tables and 62 relationships in a 1GB warehouse, boosting multi-join query execution accuracy by 33%. Validated by CEO+CTO for production adoption.",
     technologies: [],
     imageUrl: "/images/projects/sql.png",
-    githubUrl: "https://github.com/Eros483/SQL-generation-engine",
+    githubUrl: "https://github.com/arnabwithab/SQL-generation-engine",
     liveUrl: "",
     date: "2025-12",
     featured: true
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     longDescription: "Investigated performance for encoder models built in the Euclidean space versus built in Hyperbolic space.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/Hyperbolic-Embeddings/tree/main",
+    githubUrl: "https://github.com/arnabwithab/Hyperbolic-Embeddings/tree/main",
     liveUrl: "",
     date: "2025-11",
     featured: true
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     longDescription: "Removes MLP Blocks, and symetrizes the attention mechanism to create a minimalist transformer architecture, and tests performance on various NLP tasks.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/Minimalist_Transformer",
+    githubUrl: "https://github.com/arnabwithab/Minimalist_Transformer",
     liveUrl: "",
     date: "2025-11",
     featured: true
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     longDescription: "An app that unifies multiple platforms to serve as a single stop solution to all the needs that a farmer can have, servicable via API or android application.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/SIH25-Farmers/tree/main",
+    githubUrl: "https://github.com/arnabwithab/SIH25-Farmers/tree/main",
     liveUrl: "https://sih25-farmers.onrender.com/docs",
     date: "2025-10",
     featured: true
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     longDescription: "Applies multi-modal fusion with analysis of both the way the user is speaking, and what the user is speaking.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/uwuq4190Ivw.png",
-    githubUrl: "https://github.com/Eros483/Cross-lingual-nlp-auditory",
+    githubUrl: "https://github.com/arnabwithab/Cross-lingual-nlp-auditory",
     liveUrl: "",
     date: "2025-07",
     featured: true
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     longDescription: "This system serves as a combination of a user-based recommendation system, wherein a user is provided recommendations, based on content consumed by similiar users, and a content-based recommendation system, wherein recommendations are draw from media similiar to anime already viewed by the user.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/CaNN3994Tvs.png",
-    githubUrl: "https://github.com/Eros483/Anime-recommendation-system",
+    githubUrl: "https://github.com/arnabwithab/Anime-recommendation-system",
     liveUrl: "",
     date: "2025-07",
     featured: true
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     longDescription: "Designed complete LLM architecture, including tokenization layers, Multi-Head Attention Mechanism and Positional Encodings.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/rAhN3396OtQ.png",
-    githubUrl: "https://github.com/Eros483/GPT-2_LLM_Architecture",
+    githubUrl: "https://github.com/arnabwithab/GPT-2_LLM_Architecture",
     liveUrl: "",
     date: "2025-07",
     featured: true
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     longDescription: "A modular, GPU-accelerated Retrieval-Augmented Generation system built for Critical AI. This toolkit integrates a FastAPI backend and a Streamlit frontend, with support for llama-cpp-python LLMs and custom embeddings.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/bIu4772AL.png",
-    githubUrl: "https://github.com/Eros483/RagToolkitServer",
+    githubUrl: "https://github.com/arnabwithab/RagToolkitServer",
     liveUrl: "",
     date: "2025-06",
     featured: true
@@ -128,7 +128,7 @@ export const projects: Project[] = [
     longDescription: "End to end, CI/CD pipeline with Jenkins for predicting if a hotel booking is going to be cancelled or not. Deployment done using Google Cloud Registry and Google Cloud Run.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/Y1393NPs.png",
-    githubUrl: "https://github.com/Eros483/Hotel-Reservation-Prediction",
+    githubUrl: "https://github.com/arnabwithab/Hotel-Reservation-Prediction",
     liveUrl: "",
     date: "2025-06",
     featured: true
@@ -140,7 +140,7 @@ export const projects: Project[] = [
     longDescription: "Finetunes Meta's Llama 2-7b sequentially over python code and basic use case data science code.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/MDio6727NYs.png",
-    githubUrl: "https://github.com/Eros483/Finetuning-for-DataScience",
+    githubUrl: "https://github.com/arnabwithab/Finetuning-for-DataScience",
     liveUrl: "",
     date: "2025-06",
     featured: true
@@ -152,7 +152,7 @@ export const projects: Project[] = [
     longDescription: "Allows users to communicate with databases in natural language, to get detailed reports and analysis as per their requests.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/DQPo6113NE.png",
-    githubUrl: "https://github.com/Eros483/Maritime-Report-Generation",
+    githubUrl: "https://github.com/arnabwithab/Maritime-Report-Generation",
     liveUrl: "",
     date: "2025-06",
     featured: true
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     longDescription: "Detects and tracks drones, UCAVs and other flying objects in the provided video and image files.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/dznh2475ZIs.png",
-    githubUrl: "https://github.com/Eros483/Drone_Identification_and_Tracking",
+    githubUrl: "https://github.com/arnabwithab/Drone_Identification_and_Tracking",
     liveUrl: "",
     date: "2025-06",
     featured: true
@@ -176,7 +176,7 @@ export const projects: Project[] = [
     longDescription: "This is a Streamlit-based web application for analyzing customer churn data. The app loads pre-trained models and displays predictions and data insights interactively. The goal was to use machine learning to predict which customers are likely to cancel their subscription, and identify the key reasons behind churn.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/WLc3759hcI.png",
-    githubUrl: "https://github.com/Eros483/Telco-Churn-Analysis",
+    githubUrl: "https://github.com/arnabwithab/Telco-Churn-Analysis",
     liveUrl: "https://telco-churn-analysis-qkqq9n3i8s8ifr5qfurj2w.streamlit.app",
     date: "2025-05",
     featured: true
@@ -188,7 +188,7 @@ export const projects: Project[] = [
     longDescription: "Used Gemini 2.0 flash with a full stack deployment to detect if the user objects defeats the seed object and generate responses with a variety of personas.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/afF8093w.png",
-    githubUrl: "https://github.com/Eros483/what-beats-rock",
+    githubUrl: "https://github.com/arnabwithab/what-beats-rock",
     liveUrl: "https://what-beats-rock-its0.onrender.com",
     date: "2025-05",
     featured: true
@@ -200,7 +200,7 @@ export const projects: Project[] = [
     longDescription: "This Streamlit application simulates different dynamic memory allocation algorithms, including First Fit, Best Fit, Worst Fit, Second Fit, and a Reinforcement Learning (RL) based approach. It visualizes the memory state after each allocation using bar charts and displays the calculated external fragmentation.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/MMnn3656mc.png",
-    githubUrl: "https://github.com/Eros483/rl_memory_allocation",
+    githubUrl: "https://github.com/arnabwithab/rl_memory_allocation",
     liveUrl: "https://rl-mem-alloc-am-sr.streamlit.app/",
     date: "2025-03",
     featured: true
@@ -212,7 +212,7 @@ export const projects: Project[] = [
     longDescription: "This project uses a VoxelMorph-based unsupervised learning pipeline to perform image registration between macroscopic camera snapshots and microscopic H&E-stained pathology images. Synthetic snapshot-pathology image pairs are generated and used for training.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/pqfS7990cCU.png",
-    githubUrl: "https://github.com/Eros483/Deep-Learning-based-Image-Registration",
+    githubUrl: "https://github.com/arnabwithab/Deep-Learning-based-Image-Registration",
     liveUrl: "",
     date: "2025-04",
     featured: true
@@ -224,7 +224,7 @@ export const projects: Project[] = [
     longDescription: "Eigenface recognition is a popular technique for facial recognition that uses principal component analysis (PCA) to identify and classify faces.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/XAi7882lE.png",
-    githubUrl: "https://github.com/Eros483/Eigenface-Recognition",
+    githubUrl: "https://github.com/arnabwithab/Eigenface-Recognition",
     liveUrl: "",
     date: "2024-03",
     featured: true
@@ -236,7 +236,7 @@ export const projects: Project[] = [
     longDescription: "FakeOut is a tool that allows you to analyze Instagram user accounts to determine if they are legitimate or potentially associated with bot or spam activity. This tool provides insights into user account information, caption analysis, and bio coherence scoring.",
     technologies: [],
     imageUrl: "https://i.imghippo.com/files/CzAd7804Gs.png",
-    githubUrl: "https://github.com/Eros483/FakeOut-Prototype",
+    githubUrl: "https://github.com/arnabwithab/FakeOut-Prototype",
     liveUrl: "https://fakeout-prototype-bjesc3mq6hmhyndxdl4r5t.streamlit.app/",
     date: "2023-09",
     featured: true
@@ -248,7 +248,7 @@ export const projects: Project[] = [
     longDescription: "Contributed inference and distributed training support for the Domino speculative decoding algorithm to vLLM (85k stars). Achieved 18% throughput gain on Qwen3 and improved acceptance length by 27% over DFlash across 7 diverse benchmarks including GSM8K, HumanEval, and others. Work involved kernel-level optimizations and integrating the algorithm into vLLM's serving stack.",
     technologies: [],
     imageUrl: "/images/projects/vllm.png",
-    githubUrl: "https://github.com/Eros483/speculators",
+    githubUrl: "https://github.com/arnabwithab/speculators",
     liveUrl: "",
     date: "2026-07",
     featured: true
@@ -260,7 +260,7 @@ export const projects: Project[] = [
     longDescription: "A semantic internal link generation API that analyzes draft text, extracts named entities using GLiNER, finds semantically similar articles via Qdrant vector search, and returns high-confidence internal linking recommendations with equity-aware re-ranking. Built with Go, chi, Qdrant, and React.",
     technologies: [],
     imageUrl: "/images/projects/autolinks.png",
-    githubUrl: "https://github.com/Eros483/AutoLinks",
+    githubUrl: "https://github.com/arnabwithab/AutoLinks",
     liveUrl: "https://autolinks.vercel.app",
     date: "2026-07",
     featured: true
@@ -272,7 +272,7 @@ export const projects: Project[] = [
     longDescription: "A bring-your-own-key AI gateway that proxies requests to various LLM providers, allowing unified access with personal API keys.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/byok-ai-gateway",
+    githubUrl: "https://github.com/arnabwithab/byok-ai-gateway",
     liveUrl: "",
     date: "2026-07",
     featured: false
@@ -284,7 +284,7 @@ export const projects: Project[] = [
     longDescription: "A real-time, multilingual voice agent that answers a clinic's phone line, identifies the caller's language, conducts a natural conversation to collect appointment details, validates the slot against live doctor availability in Postgres, and autonomously schedules the event on the doctor's Google Calendar while sending the patient a confirmation email, all without human intervention.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/clinic-appointment-booking-engine",
+    githubUrl: "https://github.com/arnabwithab/clinic-appointment-booking-engine",
     liveUrl: "",
     date: "2026-06",
     featured: false
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     longDescription: "A multilingual voice agent that enables voice-based restaurant reservation via Swiggy Builder's club, allowing users to book tables through natural speech interaction.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/swiggy-voice-agent",
+    githubUrl: "https://github.com/arnabwithab/swiggy-voice-agent",
     liveUrl: "",
     date: "2026-05",
     featured: false
@@ -308,7 +308,7 @@ export const projects: Project[] = [
     longDescription: "A GraphRAG driven proactive agent architecture that leverages knowledge graphs and retrieval-augmented generation to proactively surface financial insights and recommendations.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/fin_jarvis",
+    githubUrl: "https://github.com/arnabwithab/fin_jarvis",
     liveUrl: "",
     date: "2026-02",
     featured: false
@@ -320,7 +320,7 @@ export const projects: Project[] = [
     longDescription: "A system that automatically detects seven traffic violations from live feeds (helmetless riders, triple-seat overcrowding, license plates, phone-using drivers, wrong-way drivers, red-light runners, unbelted passengers), references the specific laws each violation breaks, generates e-challans, and seals every detection as tamper-proof evidence on a live enforcement dashboard. Built for Flipkart Gridlock 2.0.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/traffic-violation-detection-image-processing",
+    githubUrl: "https://github.com/arnabwithab/traffic-violation-detection-image-processing",
     liveUrl: "",
     date: "2026-06",
     featured: false
@@ -332,7 +332,7 @@ export const projects: Project[] = [
     longDescription: "A lightweight Python pipeline that ingests invoice files, extracts structured data via the Groq Vision API (LLaMA-4 Scout), validates quantities via basic arithmetic, and routes results to either approved_invoices.csv or manual_review_needed.txt.",
     technologies: [],
     imageUrl: "",
-    githubUrl: "https://github.com/Eros483/invoicePipe",
+    githubUrl: "https://github.com/arnabwithab/invoicePipe",
     liveUrl: "",
     date: "2026-02",
     featured: false

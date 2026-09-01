@@ -45,7 +45,7 @@ const Home: React.FC = () => {
     jobTitle: 'Enterprise AI Specialist',
     url: 'https://arnab-mandal-portfolio.vercel.app',
     sameAs: [
-      'https://github.com/Eros483',
+      'https://github.com/arnabwithab',
       'https://www.linkedin.com/in/arnabmandal2912',
       'https://www.instagram.com/arnabwithab/',
     ],
