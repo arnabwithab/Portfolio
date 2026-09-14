@@ -1,8 +1,8 @@
 # Arnab Mandal
 
-> AI Engineer & GenAI Specialist (Enterprise AI Platform Intern at Fidelity International, Gurgaon). Specializes in GenAI applications, systems-level engineering, LLM inference optimization, and RAG architectures. Portfolio at https://arnab-mandal-portfolio.vercel.app.
+> Machine Learning Engineer (Enterprise AI Platform Intern at Fidelity International, Gurgaon). Specializes in GenAI applications, systems-level engineering, LLM inference optimization, and RAG architectures. Portfolio at https://arnab-mandal-portfolio.vercel.app.
 
-Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL agents and speculative decoding for vLLM to PII redaction and document guardrails at scale. Tagline: "I like finetuning stuff."
+Arnab builds logic-powered products that work — from speculative decoding for vLLM to PII redaction and document guardrails at scale. Tagline: "I like finetuning small language models."
 
 ## Pages
 
@@ -13,10 +13,9 @@ Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL age
 
 ## Featured Projects
 
-- [Domino Speculative Decoding for vLLM](https://github.com/arnabwithab/speculators): Inference + distributed training support for Domino in vLLM; 18% throughput gain on Qwen3, 27% acceptance length over DFlash across 7 benchmarks (GSM8K, HumanEval, etc.)
-- [AutoLinks: Distributed Semantic Internal Linking Engine](https://github.com/arnabwithab/AutoLinks): Async Go workers with Redis queue + DLQ, Qdrant vector search, GLiNER entity extraction; 85%+ LLM-as-a-judge acceptance, p95 600ms — live at https://autolinks.vercel.app
+- [Domino Speculative Decoding for vLLM](https://github.com/arnabwithab/speculators): Implemented Domino speculative decoding with distributed training in vLLM; optimized kernels for improved throughput on Qwen3
+- [AutoLinks: Distributed Semantic Internal Linking Engine](https://github.com/arnabwithab/AutoLinks): Built async Go workers with Redis queue + DLQ for distributed link generation; added LLM-as-a-judge re-ranking via GLiNER + Qdrant — live at https://autolinks.vercel.app
 - [AuthChain](https://github.com/arnabwithab/AuthChain): Cryptographic governance & consensus for autonomous agents; interruption-driven control with blockchain-audited execution — live at https://auth-chain-five.vercel.app
-- [Graph-RAG Text-to-SQL Agent](https://github.com/arnabwithab/SQL-generation-engine): Natural language to SQL for healthcare warehouse (43 tables, 62 relationships, 1GB); AWS Bedrock + LangGraph; +33% multi-join accuracy, validated for production
 - [Llava Inference via TensorRT and Triton](https://github.com/arnabwithab/Llava_Inference_TensorRT_Triton): Custom docs and forked Triton/TensorRT for efficient multimodal VLM inference
 - [Krishi AI Sahayak](https://github.com/arnabwithab/SIH25-Farmers): Unified API + Android app for farmers — live at https://sih25-farmers.onrender.com/docs
 - [RAG-Toolkit](https://github.com/arnabwithab/RagToolkitServer): Modular GPU-accelerated RAG system with FastAPI + Streamlit, llama-cpp-python
@@ -24,10 +23,11 @@ Arnab builds logic-powered products that work — from Graph-RAG Text-to-SQL age
 
 ## Experience
 
-- [Fidelity International — Intern, Enterprise AI Platform (2026-06 to Present, Gurgaon)](https://arnab-mandal-portfolio.vercel.app/#experience): Cut PII redaction latency 92% via AWQ-quantized Gemma 4 on SageMaker (96% F1); shipped document-sensitivity guardrail for internal AI gateway (15k+ uploads/month via ELK)
-- [DeepLure AI Research — AI Engineer Intern (2025-12 to 2026-01, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): vRAM optimization, PyTorch to TensorRT/Triton migration for inference pipelines
-- [Critical AI Pvt Ltd — AI Intern (2025-06 to 2025-07, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): Built GPU-accelerated RAG system with FastAPI and Streamlit
-- [WESEE, Ministry of Defence — AI Intern (2025-06 to 2025-07, India)](https://arnab-mandal-portfolio.vercel.app/#experience): Drone identification/tracking (YOLOv8) and LangChain/LangGraph report generation chatbot
+- [Fidelity International — Intern, Enterprise AI Platform (2026-06 to 2026-07, Gurgaon)](https://arnab-mandal-portfolio.vercel.app/#experience): Fine-tuned models for PII redaction; built sensitivity guardrails for LiteLLM
+- [VBC Healthcare Client — Freelance AI Engineer (2026-02 to 2026-04)](https://arnab-mandal-portfolio.vercel.app/#experience): Deployed multi-agent Text2SQL engine with sandboxed-agent execution serving 21 orgs and 200+ users on AWS
+- [DeepLure AI Research — AI Engineer Intern (2025-12 to 2026-01, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): Migrated inference stack from native PyTorch to TensorRT + Triton
+- [Critical AI Pvt Ltd — Founding AI Intern (2025-06 to 2025-07, Remote)](https://arnab-mandal-portfolio.vercel.app/#experience): Shipped RAG agents for clients towards early AI adoption
+- [WESEE, Ministry of Defence — AI Intern (2025-06 to 2025-07, India)](https://arnab-mandal-portfolio.vercel.app/#experience): Built MCP servers for internal chatbot towards early, security-first AI adoption
 
 ## Skills
 

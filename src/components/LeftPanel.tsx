@@ -14,10 +14,10 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ activeSection }) => {
           Arnab Mandal
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Enterprise AI Specialist
+          Machine Learning Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal text-slate-400">
-          I like finetuning stuff
+          I like finetuning small language models
         </p>
 
         <Navigation activeSection={activeSection} />
