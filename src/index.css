@@ -2,6 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .firefly-field {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .firefly {
+    position: absolute;
+    border-radius: 9999px;
+    background: #6ee7b7;
+    box-shadow: 0 0 12px #6ee7b7;
+    animation: firefly-drift 9s ease-in-out infinite, firefly-twinkle 3s ease-in-out infinite;
+  }
+
+  .grain-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+@keyframes firefly-drift {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(20px, -30px); }
+  50% { transform: translate(-15px, -15px); }
+  75% { transform: translate(10px, 20px); }
+}
+
+@keyframes firefly-twinkle {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .firefly { animation: none; opacity: 0.4; }
+}
+
+/* ponytail: glitch is hover-only, touch never triggers :hover persistently */
+.glitch-hover:hover {
+  animation: heading-glitch 0.3s steps(2) 2;
+}
+
+@keyframes heading-glitch {
+  0% { transform: translate(0); text-shadow: 2px 0 #6ee7b7, -2px 0 #f472b6; }
+  50% { transform: translate(-2px, 1px); text-shadow: -2px 0 #6ee7b7, 2px 0 #f472b6; }
+  100% { transform: translate(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glitch-hover:hover { animation: none; }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

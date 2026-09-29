@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Space Grotesk', 'Inter', 'sans-serif'],
+        pixel: ['"Press Start 2P"', 'monospace'],
       },
     },
   },

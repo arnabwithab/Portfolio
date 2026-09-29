@@ -26,7 +26,7 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
   render() {
     if (this.state.hasError) {
       return (
-        <div className="flex min-h-screen items-center justify-center bg-black" role="alert">
+        <div className="flex min-h-screen items-center justify-center bg-[#022c22]" role="alert">
           <div className="max-w-md rounded-lg border border-slate-800 bg-slate-900/50 p-8 text-center">
             <h2 className="text-xl font-semibold text-slate-200">Something went wrong</h2>
             <p className="mt-2 text-slate-400">
@@ -34,7 +34,7 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
             </p>
             <button
               onClick={() => window.location.reload()}
-              className="mt-6 rounded-lg bg-teal-300 px-6 py-2 text-sm font-medium text-teal-900 transition hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              className="mt-6 rounded-lg bg-emerald-300 px-6 py-2 text-sm font-medium text-emerald-900 transition hover:bg-emerald-200 focus:outline-none focus:ring-2 focus:ring-emerald-400"
             >
               Refresh page
             </button>

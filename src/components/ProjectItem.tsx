@@ -12,7 +12,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
 
   return (
     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
+      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-emerald-950/60 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(110,231,183,0.1)] lg:group-hover:drop-shadow-lg" />
 
       {project.imageUrl && (
         <div className="z-10 mb-2 mt-1 sm:col-span-2">
@@ -29,13 +29,13 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
       )}
 
       <div className={`z-10 ${project.imageUrl ? 'sm:col-span-6' : 'sm:col-span-8'}`}>
-        <h3 className="font-medium leading-snug text-slate-200">
+        <h3 className="font-medium leading-snug text-slate-100">
           {hasLink ? (
             <a
               href={projectUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+              className="inline-flex items-baseline font-medium leading-tight text-slate-100 hover:text-emerald-300 focus-visible:text-emerald-300 group/link text-[17px]"
             >
               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
               <span>
@@ -51,13 +51,13 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
         </h3>
 
         {project.achievements && project.achievements.length > 0 ? (
-          <ul className="mt-2 list-disc space-y-1 pl-4 text-sm leading-normal text-slate-400 marker:text-slate-500">
+          <ul className="mt-2 list-disc space-y-1 pl-4 text-[15px] leading-relaxed text-slate-300 marker:text-emerald-700">
             {project.achievements.map((item, idx) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
         ) : (
-          <p className="mt-2 text-sm leading-normal text-slate-400">{project.description}</p>
+          <p className="mt-2 text-[15px] leading-relaxed text-slate-300">{project.description}</p>
         )}
       </div>
     </div>
