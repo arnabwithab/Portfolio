@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 // ponytail: two pixel bots sparring on one tiny canvas. Rects only, zero deps.
-// Phones pay nothing — returns null below lg, pauses offscreen, static if reduced-motion.
+// Pauses offscreen, static if reduced-motion. Cheap enough for phones.
 
 const W = 160;
 const H = 120;
@@ -137,7 +137,7 @@ const RobotFight: React.FC = () => {
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setEligible(window.matchMedia('(min-width: 1024px)').matches);
+    setEligible(true);
   }, []);
 
   useEffect(() => {
@@ -369,7 +369,7 @@ const RobotFight: React.FC = () => {
   if (!eligible) return null;
 
   return (
-    <div ref={wrapRef} className="mt-10 hidden w-full max-w-xs lg:block" aria-label="Two pixel robots sparring">
+    <div ref={wrapRef} className="mt-8 w-full max-w-xs lg:mt-10" aria-label="Two pixel robots sparring">
       <div>
         <canvas
           ref={canvasRef}

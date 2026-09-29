@@ -46,16 +46,42 @@ const LazySection: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   );
 };
 
-const RightPanel: React.FC = () => {
+const RightPanel: React.FC<{ activeSection: string }> = ({ activeSection }) => {
   const showcaseIds = ['21', '22'];
   const featuredProjects = showcaseIds
     .map((id) => projects.find((project) => project.id === id))
     .filter((project): project is Project => project !== undefined);
 
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  };
+
   return (
     <div className="pt-8 lg:w-1/2 lg:py-20">
+      <div className="sticky top-0 z-20 -mx-5 mb-6 bg-[#022c22]/85 px-5 py-3 backdrop-blur lg:hidden" role="tablist" aria-label="Sections">
+        <div className="flex gap-2">
+          {(['experience', 'projects'] as const).map((id) => (
+            <button
+              key={id}
+              role="tab"
+              aria-selected={activeSection === id}
+              onClick={() => scrollTo(id)}
+              className={`rounded-full px-4 py-2 font-mono text-[11px] font-semibold uppercase tracking-[0.15em] transition ${
+                activeSection === id
+                  ? 'bg-emerald-300 text-emerald-950'
+                  : 'border border-emerald-900 text-emerald-200/70'
+              }`}
+            >
+              {id}
+            </button>
+          ))}
+        </div>
+      </div>
       <LazySection>
-        <section id="experience" className="mb-12 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24">
+        <section id="experience" className="mb-12 scroll-mt-24 md:mb-16 lg:mb-24 lg:scroll-mt-24">
           <div className="mb-6 flex items-center gap-3 lg:hidden" aria-hidden="true">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-300">
               Experience
@@ -88,12 +114,8 @@ const RightPanel: React.FC = () => {
         </section>
       </LazySection>
 
-      <div aria-hidden="true" className="mb-12 select-none text-center font-mono text-[13px] tracking-[0.4em] text-emerald-700 lg:mb-24">
-        · · ─── ◆ ─── · ·
-      </div>
-
       <LazySection>
-        <section id="projects" className="mb-10 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24">
+        <section id="projects" className="mb-10 scroll-mt-24 md:mb-16 lg:mb-24 lg:scroll-mt-24">
           <div className="mb-6 flex items-center gap-3 lg:hidden" aria-hidden="true">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-300">
               Projects
@@ -125,10 +147,6 @@ const RightPanel: React.FC = () => {
           </div>
         </section>
       </LazySection>
-
-      <div aria-hidden="true" className="mb-8 select-none text-center font-mono text-[13px] tracking-[0.4em] text-emerald-700 md:mb-10">
-        · · ─── ◆ ─── · ·
-      </div>
 
       <footer className="max-w-md pb-16 text-[15px] leading-relaxed text-slate-400 sm:pb-0" role="contentinfo">
         <p>

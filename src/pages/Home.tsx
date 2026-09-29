@@ -115,7 +115,7 @@ const Home: React.FC = () => {
         >
           <div className="lg:flex lg:justify-between lg:gap-4">
             <LeftPanel activeSection={activeSection} />
-            <RightPanel />
+            <RightPanel activeSection={activeSection} />
           </div>
         </div>
       </div>
