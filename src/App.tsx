@@ -5,16 +5,18 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
         <ErrorBoundary>
-          <div className="bg-black leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+          <div className="bg-[#022c22] leading-relaxed text-slate-300 antialiased selection:bg-emerald-300 selection:text-emerald-900">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/archive" element={<Navigate to="https://github.com/arnabwithab" replace />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
           <Analytics />
