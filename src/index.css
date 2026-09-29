@@ -64,6 +64,13 @@
     scroll-behavior: smooth;
   }
 
+  /* ponytail: laptop reads like 110% browser zoom — 1rem goes 16px → 17.6px */
+  @media (min-width: 1024px) {
+    html {
+      font-size: 110%;
+    }
+  }
+
   * {
     scrollbar-width: thin;
     scrollbar-color: rgba(100, 116, 139, 0.5) transparent;
