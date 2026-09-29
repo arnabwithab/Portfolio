@@ -61,7 +61,7 @@ const RightPanel: React.FC<{ activeSection: string }> = ({ activeSection }) => {
 
   return (
     <div className="pt-8 lg:w-1/2 lg:py-20">
-      <div className="sticky top-0 z-20 -mx-5 mb-8 bg-[#022c22]/85 px-5 py-3 backdrop-blur lg:hidden" role="tablist" aria-label="Sections">
+      <div className="sticky top-0 z-20 -mx-5 mb-12 bg-[#022c22]/85 px-5 py-4 backdrop-blur lg:hidden" role="tablist" aria-label="Sections">
         <div className="flex gap-2">
           {(['experience', 'projects'] as const).map((id) => (
             <button
